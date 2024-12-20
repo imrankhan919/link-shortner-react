@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Form from "./components/Form";
 import LinkContainer from "./components/LinkContainer";
 import { LinkProvider } from "./context/LinkContext";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Form />
         <LinkContainer />
       </div>
+      <Footer />
     </LinkProvider>
   );
 };
